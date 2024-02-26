@@ -1,8 +1,25 @@
-# 学习资料
-***
-[GO 入门指南](https://github.com/unknwon/the-way-to-go_ZH_CN) \
-[GO 语言圣经](https://golang-china.github.io/gopl-zh/) \
-[GO 指南](https://tour.go-zh.org/welcome)
+# Go 语言基础语法
+*** 
+### Go 标记
+Go 程序可以由多个标记组成，可以是关键字，标识符，常量，字符串，符号。如以下 GO 语句由 6 个标记组成：
+```go
+fmt.Println("Hello, World!")
+```
+### 行分隔符
+在 Go 程序中，一行代表一个语句结束。每个语句不需要像 C 家族中的其它语言一样以分号 ; 结尾，因为这些工作都将由 Go 编译器自动完成。
 
-# IDE
-[GoLand 下载安装](https://www.jetbrains.com/go/download/#section=windows)
+如果你打算将多个语句写在同一行，它们则必须使用 ; 人为区分，但在实际开发中我们并不鼓励这种做法。
+
+以下为两个语句：
+```go
+fmt.Println("Hello, World!")
+fmt.Println("菜鸟教程：runoob.com")
+```
+### 注释
+```go
+// 单行注释
+/*
+ Author by 菜鸟教程
+ 我是多行注释
+ */
+```
