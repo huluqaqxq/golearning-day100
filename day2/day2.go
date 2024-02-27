@@ -12,4 +12,12 @@ func main() {
 
 	d := 30
 	fmt.Printf("c type is %T\n", d)
+
+	// 多重赋值
+	i, j := 0, 1
+	fmt.Printf("i = %d j = %d \n", i, j)
+
+	f, _ := 10, 1
+	_, e := 10, 2
+	fmt.Printf("f = %d, e = %d", f, e)
 }

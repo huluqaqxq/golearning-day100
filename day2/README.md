@@ -41,3 +41,18 @@ fmt.Printf("c type is %T\n", c)
 a = 10
 fmt.Printf("a type is %T\n", a)
 ```
+***
+# Printf 和 Println 的区别
+```go
+a := 10
+b := 20
+fmt.Println("a = ", a, "b = ", b)
+fmt.Printf("a = %d, b = %d", a, b)
+```
+***
+# 匿名变量
+```go
+f, _ := 10, 1
+_, e := 10, 2
+fmt.Printf("f = %d, e = %d", f, e)
+```
